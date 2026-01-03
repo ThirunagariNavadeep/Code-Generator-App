@@ -4,7 +4,8 @@ from dotenv import load_dotenv
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain_community.llms import OllamaLLM
+from langchain_ollama import OllamaLLM
+
 
 
 st.set_page_config(
@@ -45,6 +46,7 @@ if input_text:
     except Exception as e:
         st.error("Error while generating code")
         st.exception(e)
+
 
 
 
