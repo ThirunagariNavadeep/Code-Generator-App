@@ -3,3 +3,5 @@ streamlit
 langchain-community
 langchain-core
 python-dotenv
+langchain-ollama
+
